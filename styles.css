@@ -1,0 +1,192 @@
+.nav-bg {
+  background-color: #4d4c4c;
+}
+
+.round-corners {
+  border: 1px solid transparent;
+  border-radius: 20px;
+}
+
+.navbar-brand {
+  margin-left: 4rem;
+}
+.margin-right-nav {
+  margin-right: 5rem;
+}
+.navbar {
+  height: 6rem;
+  padding-right: 5rem;
+  box-shadow: 25px 10px 25px white;
+}
+.nav-link {
+  font-size: 1.3em;
+  color: rgb(240, 221, 200);
+}
+.nav-link:hover {
+  color: rgb(250, 236, 220);
+}
+.ml {
+  margin-left: 35rem !important;
+}
+.container-fluid {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.welcome-image {
+  background-image: url("https://www.hchairstudio.co.uk/wp-content/uploads/2019/03/hc-hair-studio-oakham-hair-close-up.jpg");
+  background-color: #cccccc;
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+#welcome_msg {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 15%;
+  transform: rotate(-20deg);
+  color: rgb(22, 14, 14);
+}
+
+#welcome_msg h3 {
+  opacity: 0;
+}
+#welcome_msg span {
+  font-size: 50px;
+  font-family: Brush Script MT;
+}
+
+body {
+  background-color: #4d4c4c;
+}
+.services-section {
+  margin-top: 2%;
+  color: rgb(240, 221, 200);
+}
+
+.col-md-3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.centerElements h4 {
+  text-align: center;
+}
+
+.centerElements img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.col-md-3 p {
+  text-align: justify;
+}
+img {
+  width: inherit;
+}
+.video-container {
+  width: 50%;
+}
+.video-specs {
+  display: block;
+  height: 250px;
+  width: 350px;
+  border: transparent;
+  margin: auto;
+}
+#video-section {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  padding: 1%;
+  background-color: rgb(240, 221, 200);
+  color: #4d4c4c;
+}
+.description {
+  text-align: justify;
+  width: 50%;
+  margin: 1%;
+  padding: 2%;
+}
+.contact-us {
+  display: flex;
+  direction: row;
+  width: 100%;
+  padding: 2%;
+  background-color: black;
+  color: rgb(240, 221, 200);
+}
+.hours {
+  display: inline-block;
+  width: 20%;
+  margin-left: 10%;
+}
+.hours h4 {
+  color: rgb(240, 205, 164);
+}
+.contact-form {
+  display: inline-block;
+  width: 45%;
+  margin-left: 10%;
+  color: rgb(240, 205, 164);
+}
+.contact-form label {
+  font-weight: bold;
+}
+input {
+  background-color: rgb(240, 221, 200) !important;
+}
+textarea {
+  background-color: rgb(240, 221, 200) !important;
+}
+.submit-button {
+  height: 40px;
+  width: 100px;
+  border: 1px transparent;
+  border-radius: 5px;
+  font-size: 1.1em;
+  background-color: rgb(240, 221, 200);
+}
+.button-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+@media screen and (max-width: 992px) {
+  .navbar {
+    padding-left: 0px;
+    padding-right: 0px;
+    width: 100%;
+  }
+  #navbarTogglerDemo01 {
+    text-align: center;
+    background-color: #4d4c4c;
+    width: 100%;
+    box-shadow: 25px 10px 25px;
+  }
+}
+@media screen and (max-width: 750px) {
+  #video-section {
+    flex-direction: column;
+  }
+  .video-container {
+    width: 100%;
+  }
+  .description {
+    width: 80%;
+    margin: auto;
+  }
+  .contact-us {
+    flex-direction: column;
+  }
+  .hours {
+    display: block;
+    width: 80%;
+  }
+  .contact-form {
+    width: 80%;
+  }
+}
